@@ -4,7 +4,7 @@ module.exports.run = async ( oldP, newP ) => {
     if ( !oldP || !newP ) return;
 
     if ( oldP.status == newP.status ) return;
-    if ( oldP.status != 'offline' ) return; // has just come online
+    if ( oldP && oldP.status != 'offline' ) return; // has just come online
 
     console.log( '[Avoider] Avoiding ' + newP.member.user.tag + '...' );
 
