@@ -1,0 +1,27 @@
+{
+    "discord": {
+        "token": "Nzk0NjYxODA5NDAyNDEzMDY2.X--Eew.7hCek5l-W2EmGmIN9fIW1qQ-zJE",
+        "prefix": [
+            "w ",
+            "warband "
+        ]
+    },
+    "avoider": {
+        "lockedLounge": "614249479180124169",
+        "mainCategory": "614233275669676050",
+        "ids": [
+            "487141881785090053"
+        ]
+    },
+    "roles": {
+        "lord": "614233415104987139",
+        "captain": "614233976852316191"
+    },
+    "guilds": {
+        "warband": "614233274985742338"
+    },
+    "channels": {
+        "lounge1": "614248421955731466",
+        "lounge2": "614249126200344586"
+    }
+}
