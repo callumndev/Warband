@@ -7,7 +7,7 @@ module.exports.run = () => {
 
     discord.channels.lockedLounge.setName( readyMsg );
 
-    setTimeout( () => discord.channels.lockedLounge.setName( nameRn ), 3000 ),
+    setTimeout( () => discord.channels.lockedLounge.setName( nameRn ), 3000 );
 };
 
 module.exports.config = {
